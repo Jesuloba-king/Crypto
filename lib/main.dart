@@ -552,6 +552,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       backgroundColor: Colors.indigo),
                   ],
                 onTap: (index){
+
                   setState(() {
                     _currentIndex = index;
                   });
